@@ -1,0 +1,54 @@
+{
+  "name": "alga-vue",
+  "version": "0.0.1-development4",
+  "description": "Alga Vue is a compilation of composable files or Vue 3 Composition API helper based on Alga.js",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/alga-vue.umd.js",
+  "module": "./dist/alga-vue.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/alga-vue.es.js",
+      "require": "./dist/alga-vue.umd.js"
+    }
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "vue-tsc && vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tedirghazali/alga-vue.git"
+  },
+  "keywords": [
+    "utility",
+    "helper",
+    "composition-api",
+    "vue",
+    "vue-3",
+    "vue-helper",
+    "vue-utility"
+  ],
+  "author": "Tedir Ghazali",
+  "license": "SEE LICENSE IN license.txt",
+  "bugs": {
+    "url": "https://github.com/tedirghazali/alga-vue/issues"
+  },
+  "homepage": "https://github.com/tedirghazali/alga-vue#readme",
+  "dependencies": {
+    "alga-js": "^0.0.8",
+    "vue": "^3.0.5"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "@vitejs/plugin-vue": "^1.2.1",
+    "@vue/compiler-sfc": "^3.0.5",
+    "@vue/test-utils": "^2.0.0-rc.6",
+    "jest": "^27.0.5",
+    "ts-jest": "^27.0.3",
+    "typescript": "^4.3.4",
+    "vite": "^2.1.5",
+    "vue-tsc": "^0.0.15"
+  }
+}
