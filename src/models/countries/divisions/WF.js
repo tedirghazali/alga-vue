@@ -1,0 +1,1 @@
+export default [{"id":"AL","division":"Alo","country":"WF"},{"id":"SG","division":"Sigave","country":"WF"},{"id":"UV","division":"Uvea","country":"WF"}]

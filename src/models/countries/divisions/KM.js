@@ -1,0 +1,1 @@
+export default [{"id":"A","division":"Anjouan","country":"KM"},{"id":"G","division":"Grande Comore","country":"KM"},{"id":"M","division":"Mohéli","country":"KM"}]

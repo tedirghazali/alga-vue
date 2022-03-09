@@ -1,0 +1,1 @@
+export default [{"id":21,"division":"Svalbard","country":"SJ"},{"id":22,"division":"Jan Mayen","country":"SJ"}]

@@ -1,0 +1,1 @@
+export default [{"id":1,"division":"'Eua","country":"TO"},{"id":2,"division":"Ha'apai","country":"TO"},{"id":3,"division":"Niuas","country":"TO"},{"id":4,"division":"Tongatapu","country":"TO"},{"id":5,"division":"Vava'u","country":"TO"}]

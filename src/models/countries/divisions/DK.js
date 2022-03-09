@@ -1,0 +1,1 @@
+export default [{"id":81,"division":"Nordjylland","country":"DK"},{"id":82,"division":"Midtjylland","country":"DK"},{"id":83,"division":"Syddanmark","country":"DK"},{"id":84,"division":"Hovedstaden","country":"DK"},{"id":85,"division":"Sjælland","country":"DK"}]

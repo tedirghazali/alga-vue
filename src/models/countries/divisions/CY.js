@@ -1,0 +1,1 @@
+export default [{"id":1,"division":"Lefkosia","country":"CY"},{"id":2,"division":"Lemesos","country":"CY"},{"id":3,"division":"Larnaka","country":"CY"},{"id":4,"division":"Ammochostos","country":"CY"},{"id":5,"division":"Pafos","country":"CY"},{"id":6,"division":"Keryneia","country":"CY"}]

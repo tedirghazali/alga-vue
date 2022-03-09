@@ -1,0 +1,1 @@
+export default [{"id":"B","division":"Banjul","country":"GM"},{"id":"L","division":"Lower River","country":"GM"},{"id":"M","division":"MacCarthy Island","country":"GM"},{"id":0,"division":"North Bank","country":"GM"},{"id":"U","division":"Upper River","country":"GM"},{"id":"W","division":"Western","country":"GM"}]

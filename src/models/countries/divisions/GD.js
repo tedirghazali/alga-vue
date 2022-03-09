@@ -1,0 +1,1 @@
+export default [{"id":1,"division":"Saint Andrew","country":"GD"},{"id":2,"division":"Saint David","country":"GD"},{"id":3,"division":"Saint George","country":"GD"},{"id":4,"division":"Saint John","country":"GD"},{"id":5,"division":"Saint Mark","country":"GD"},{"id":6,"division":"Saint Patrick","country":"GD"},{"id":10,"division":"Southern Grenadine Islands","country":"GD"}]

@@ -1,0 +1,1 @@
+export default [{"id":"GB","division":"Gorno-Badakhshan","country":"TJ"},{"id":"KT","division":"Khatlon","country":"TJ"},{"id":"SU","division":"Sughd","country":"TJ"},{"id":"DU","division":"Dushanbe","country":"TJ"},{"id":"RA","division":"Nohiyahoi Tobei Jumhurí","country":"TJ"}]

@@ -1,0 +1,1 @@
+export default [{"id":"C","division":"Centre","country":"TG"},{"id":"K","division":"Kara","country":"TG"},{"id":"M","division":"Maritime (Région)","country":"TG"},{"id":"P","division":"Plateaux","country":"TG"},{"id":"S","division":"Savannes","country":"TG"}]

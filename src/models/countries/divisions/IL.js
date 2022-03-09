@@ -1,0 +1,1 @@
+export default [{"id":"D","division":"HaDarom","country":"IL"},{"id":"HA","division":"Haifa","country":"IL"},{"id":"JM","division":"Yerushalayim","country":"IL"},{"id":"M","division":"HaMerkaz","country":"IL"},{"id":"TA","division":"Tel-Aviv","country":"IL"},{"id":"Z","division":"HaZafon","country":"IL"}]

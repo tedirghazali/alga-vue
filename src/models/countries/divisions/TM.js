@@ -1,0 +1,1 @@
+export default [{"id":"A","division":"Ahal","country":"TM"},{"id":"B","division":"Balkan","country":"TM"},{"id":"D","division":"Dasoguz","country":"TM"},{"id":"L","division":"Lebap","country":"TM"},{"id":"M","division":"Mary","country":"TM"},{"id":"S","division":"Aşgabat","country":"TM"}]

@@ -1,0 +1,1 @@
+export default [{"id":1,"division":"Ville de Kigali","country":"RW"},{"id":2,"division":"Est","country":"RW"},{"id":3,"division":"Nord","country":"RW"},{"id":4,"division":"Ouest","country":"RW"},{"id":5,"division":"Sud","country":"RW"}]

@@ -1,0 +1,1 @@
+export default [{"id":"HH","division":"Hhohho","country":"SZ"},{"id":"LU","division":"Lubombo","country":"SZ"},{"id":"MA","division":"Manzini","country":"SZ"},{"id":"SH","division":"Shiselweni","country":"SZ"}]

@@ -1,0 +1,1 @@
+export default [{"id":"AN","division":"Anseba","country":"ER"},{"id":"DK","division":"Debubawi Keyih Bahri [Debub-Keih-Bahri]","country":"ER"},{"id":"DU","division":"Debub","country":"ER"},{"id":"GB","division":"Gash-Barka","country":"ER"},{"id":"MA","division":"Maakel [Maekel]","country":"ER"},{"id":"SK","division":"Semenawi Keyih Bahri [Semien-Keih-Bahri]","country":"ER"}]

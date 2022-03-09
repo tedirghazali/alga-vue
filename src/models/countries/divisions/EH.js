@@ -1,0 +1,1 @@
+export default [{"id":"BOD","division":"Boujdour","country":"EH"},{"id":"ESM","division":"Es Semara","country":"EH"},{"id":"LAA","division":"Laayoune","country":"EH"},{"id":"OUD","division":"Oued el Dahab","country":"EH"}]

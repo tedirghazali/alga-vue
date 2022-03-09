@@ -1,0 +1,1 @@
+export default [{"id":"A","division":"Atafu","country":"TK"},{"id":"F","division":"Fakaofo","country":"TK"},{"id":0,"division":"Nukunonu","country":"TK"}]

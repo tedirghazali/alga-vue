@@ -1,0 +1,1 @@
+export default [{"id":13,"division":"Al Manamah (Al ‘Asimah)","country":"BH"},{"id":14,"division":"Al Janubiyah","country":"BH"},{"id":15,"division":"Al Muharraq","country":"BH"},{"id":16,"division":"Al Wustá","country":"BH"},{"id":17,"division":"Ash Shamaliyah","country":"BH"}]

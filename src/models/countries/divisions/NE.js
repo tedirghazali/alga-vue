@@ -1,0 +1,1 @@
+export default [{"id":1,"division":"Agadez","country":"NE"},{"id":2,"division":"Diffa","country":"NE"},{"id":3,"division":"Dosso","country":"NE"},{"id":4,"division":"Maradi","country":"NE"},{"id":5,"division":"Tahoua","country":"NE"},{"id":6,"division":"Tillabéri","country":"NE"},{"id":7,"division":"Zinder","country":"NE"},{"id":8,"division":"Niamey","country":"NE"}]

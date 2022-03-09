@@ -1,0 +1,1 @@
+export default [{"id":"KU","division":"Kujalleq","country":"GL"},{"id":"QA","division":"Qaasuitsup","country":"GL"},{"id":"QE","division":"Qeqqata","country":"GL"},{"id":"SM","division":"Sermersooq","country":"GL"},{"id":"AV","division":"Avannaata Kommunia","country":"GL"},{"id":"QT","division":"Kommune Qeqertalik","country":"GL"}]

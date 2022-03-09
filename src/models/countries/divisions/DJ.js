@@ -1,0 +1,1 @@
+export default [{"id":"AR","division":"Arta","country":"DJ"},{"id":"AS","division":"Ali Sabieh","country":"DJ"},{"id":"DI","division":"Dikhil","country":"DJ"},{"id":"DJ","division":"Djibouti","country":"DJ"},{"id":"OB","division":"Obock","country":"DJ"},{"id":"TA","division":"Tadjourah","country":"DJ"}]

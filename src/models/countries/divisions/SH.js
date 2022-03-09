@@ -1,0 +1,1 @@
+export default [{"id":"AC","division":"Ascension","country":"SH"},{"id":"SH","division":"Saint Helena","country":"SH"},{"id":"TA","division":"Tristan da Cunha","country":"SH"},{"id":"HL","division":"Saint Helena","country":"SH"}]

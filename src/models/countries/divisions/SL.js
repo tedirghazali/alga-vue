@@ -1,0 +1,1 @@
+export default [{"id":"E","division":"Eastern","country":"SL"},{"id":0,"division":"Northern","country":"SL"},{"id":"S","division":"Southern","country":"SL"},{"id":"W","division":"Western Area (Freetown)","country":"SL"},{"id":"NW","division":"North Western","country":"SL"}]

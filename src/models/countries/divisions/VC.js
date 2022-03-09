@@ -1,0 +1,1 @@
+export default [{"id":1,"division":"Charlotte","country":"VC"},{"id":2,"division":"Saint Andrew","country":"VC"},{"id":3,"division":"Saint David","country":"VC"},{"id":4,"division":"Saint George","country":"VC"},{"id":5,"division":"Saint Patrick","country":"VC"},{"id":6,"division":"Grenadines","country":"VC"}]

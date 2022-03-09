@@ -1,0 +1,1 @@
+export default [{"id":"KSA","division":"Kosrae","country":"FM"},{"id":"PNI","division":"Pohnpei","country":"FM"},{"id":"TRK","division":"Chuuk","country":"FM"},{"id":"YAP","division":"Yap","country":"FM"}]

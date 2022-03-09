@@ -1,0 +1,32 @@
+export default [
+  //Western Europe
+  {id: 'AT', country: 'Austria', dial_code: '+43', region: 'WE-EU' },
+  {id: 'BE', country: 'Belgium', dial_code: '+32', region: 'WE-EU' },
+  {id: 'FR', country: 'France', dial_code: '+33', region: 'WE-EU' },
+  {id: 'DE', country: 'Germany', dial_code: '+49', region: 'WE-EU' },
+  {id: 'LI', country: 'Liechtenstein', dial_code: '+423', region: 'WE-EU' },
+  {id: 'LU', country: 'Luxembourg', dial_code: '+352', region: 'WE-EU' },
+  {id: 'MC', country: 'Monaco', dial_code: '+377', region: 'WE-EU' },
+  {id: 'NL', country: 'Netherlands', dial_code: '+31', region: 'WE-EU' },
+  {id: 'CH', country: 'Switzerland', dial_code: '+41', region: 'WE-EU' },
+  {id: 'IE', country: 'Ireland', dial_code: '+353', region: 'WE-EU' },
+  {id: 'GB', country: 'United Kingdom', dial_code: '+44', region: 'WE-EU' },
+  //Southwest Europe
+  {id: 'AD', country: 'Andorra', dial_code: '+376', region: 'WE-EU' },
+  {id: 'PT', country: 'Portugal', dial_code: '+351', region: 'WE-EU' },
+  {id: 'ES', country: 'Spain', dial_code: '+34', region: 'WE-EU' },
+  {id: 'IT', country: 'Italy', dial_code: '+39', region: 'WE-EU' },
+  {id: 'MT', country: 'Malta', dial_code: '+356', region: 'WE-EU' },
+  {id: 'SM', country: 'San Marino', dial_code: '+378', region: 'WE-EU' },
+  {id: 'GI', country: 'Gibraltar', dial_code: '+350', region: 'WE-EU' },
+  //Northern Europe
+  {id: 'EE', country: 'Estonia', dial_code: '+372', region: 'WE-EU' },
+  {id: 'LV', country: 'Latvia', dial_code: '+371', region: 'WE-EU' },
+  {id: 'LT', country: 'Lithuania', dial_code: '+370', region: 'WE-EU' },
+  {id: 'DK', country: 'Denmark', dial_code: '+45', region: 'WE-EU' },
+  {id: 'FI', country: 'Finland', dial_code: '+358', region: 'WE-EU' },
+  {id: 'IS', country: 'Iceland', dial_code: '+354', region: 'WE-EU' },
+  {id: 'NO', country: 'Norway', dial_code: '+47', region: 'WE-EU' },
+  {id: 'SE', country: 'Sweden', dial_code: '+46', region: 'WE-EU' },
+  {id: 'FO', country: 'Faroe Islands', dial_code: '+298', region: 'WE-EU' },
+]

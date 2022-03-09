@@ -1,0 +1,1 @@
+export default [{"id":"BE","division":"Belait","country":"BN"},{"id":"BM","division":"Brunei-Muara","country":"BN"},{"id":"TE","division":"Temburong","country":"BN"},{"id":"TU","division":"Tutong","country":"BN"}]
