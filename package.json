@@ -1,6 +1,6 @@
 {
   "name": "alga-vue",
-  "version": "0.0.1-wood-2",
+  "version": "0.0.1-wood-3",
   "description": "Alga Vue is a compilation of composable files or Vue 3 Composition API helper based on Alga.js",
   "files": [
     "dist",
