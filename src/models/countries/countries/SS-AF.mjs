@@ -38,8 +38,6 @@ export default [
   {id: 'GQ', country: 'Equatorial Guinea', dial_code: '+240', region: 'SS-AF' },
   {id: 'GA', country: 'Gabon', dial_code: '+241', region: 'SS-AF' },
   {id: 'ST', country: 'São Tomé and Príncipe', dial_code: '+239', region: 'SS-AF' },
-  {id: 'RW', country: 'Rwanda', dial_code: '+250', region: 'SS-AF' },
-  {id: 'BI', country: 'Burundi', dial_code: '+257', region: 'SS-AF' },
   //West Africa
   {id: 'BJ', country: 'Benin', dial_code: '+229', region: 'SS-AF' },
   {id: 'BF', country: 'Burkina Faso', dial_code: '+226', region: 'SS-AF' },
