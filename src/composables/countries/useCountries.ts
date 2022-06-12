@@ -1,22 +1,24 @@
-import { ref, watch, computed, Ref } from 'vue'
+import { ref, computed, watch, Ref } from 'vue'
 
-export default function useCountries(refEntries: Ref<any[]>, refId: Ref<string>, refRegion: Ref<string>) {
+const idRef = ref('')
+
+export default function useCountries(entries: Ref<any[]>, id: Ref<string> = idRef, prop: string = '') {
   const countries = ref<any[]>([])
   
   const setCountries = () => {
-    countries.value = refEntries.value
+    countries.value = entries.value
     
-    if(refRegion.value !== '') {
-      countries.value = refEntries.value.filter((i: any) => String(i?.region).toLowerCase() === String(refRegion.value).toLowerCase())
+    if(prop === 'region' && id.value !== '') {
+      countries.value = entries.value.filter((i: any) => String(i?.region).toLowerCase() === String(id.value).toLowerCase())
     }
     
-    if(refId.value !== '') {
-      countries.value = refEntries.value.filter((i: any) => String(i?.id).toLowerCase() === String(refId.value).toLowerCase())
+    if(prop === 'id' && id.value !== '') {
+      countries.value = entries.value.filter((i: any) => String(i?.id).toLowerCase() === String(id.value).toLowerCase())
     }
   }
   
   setCountries()
-  watch(refId, setCountries)
+  watch(id, setCountries)
   
   const getCountries = computed<any[]>(() => {
     return countries.value.sort((a: any, b: any) => String(a?.country).localeCompare(String(b?.country)))

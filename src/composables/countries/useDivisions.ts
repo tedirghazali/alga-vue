@@ -1,28 +1,27 @@
-import { ref, watch, computed, Ref } from 'vue'
+import { ref, computed, watch, Ref } from 'vue'
 
-export default function useDivisions(refEntries: Ref<any>, refCountry: Ref<string>, refId: Ref<string>) {
-  const divisions = ref<any | any[]>([])
+const countryRef = ref('')
+const idRef = ref('')
+
+export default function useDivisions(entries: Ref<any>, country: Ref<string> = countryRef, id: Ref<string> = idRef) {
+  const divisions = ref<any[]>([])
   
   const setDivisions = () => {
-    divisions.value = refEntries.value
-    
-    if(refCountry.value !== '') {
-      divisions.value = refEntries.value?.[refCountry.value] || []
+    if(country.value !== '') {
+      divisions.value = entries.value?.[country.value] || []
       
-      if(refId.value !== '') {
-        divisions.value = divisions.value.filter((i: any) => String(i?.id).toLowerCase() === String(refId.value).toLowerCase())
+      if(id.value !== '') {
+        divisions.value = divisions.value.filter((i: any) => String(i?.id).toLowerCase() === String(id.value).toLowerCase())
       }
-      
-      divisions.value = divisions.value.sort((a: any, b: any) => String(a?.division).localeCompare(String(b?.division)))
     }
   }
   
   setDivisions()
-  watch(refCountry, setDivisions)
-  watch(refId, setDivisions)
+  watch(country, setDivisions)
+  watch(id, setDivisions)
   
-  const getDivisions = computed<any | any[]>(() => {
-    return divisions.value
+  const getDivisions = computed<any[]>(() => {
+    return divisions.value.sort((a: any, b: any) => String(a?.division).localeCompare(String(b?.division)))
   })
   
   return {

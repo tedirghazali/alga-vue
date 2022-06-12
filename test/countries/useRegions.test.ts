@@ -22,9 +22,9 @@ const TestComponent = {
       {id: 'OC-AU', region: 'Oceania', continent: 'AU'}
     ])
     const id = ref('SE-AS')
-    const continent = ref('AS')
+    const prop = ref('id')
     
-    const { getRegions } = useRegions(regions, id, continent)
+    const { getRegions } = useRegions(regions, id, prop.value)
     
     return {
       getRegions

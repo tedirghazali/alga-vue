@@ -1,22 +1,24 @@
-import { ref, watch, computed, Ref } from 'vue'
+import { ref, computed, watch, Ref } from 'vue'
 
-export default function useRegions(refEntries: Ref<any[]>, refId: Ref<string>, refContinent: Ref<string>) {
+const idRef = ref('')
+
+export default function useRegions(entries: Ref<any[]>, id: Ref<string> = idRef, prop: string = '') {
   const regions = ref<any[]>([])
   
   const setRegions = () => {
-    regions.value = refEntries.value
+    regions.value = entries.value
     
-    if(refContinent.value !== '') {
-      regions.value = refEntries.value.filter((i: any) => String(i?.continent).toLowerCase() === String(refContinent.value).toLowerCase())
+    if(prop === 'continent' && id.value !== '') {
+      regions.value = entries.value.filter((i: any) => String(i?.continent).toLowerCase() === String(id.value).toLowerCase())
     }
     
-    if(refId.value !== '') {
-      regions.value = refEntries.value.filter((i: any) => String(i?.id).toLowerCase() === String(refId.value).toLowerCase())
+    if(prop === 'id' && id.value !== '') {
+      regions.value = entries.value.filter((i: any) => String(i?.id).toLowerCase() === String(id.value).toLowerCase())
     }
   }
   
   setRegions()
-  watch(refId, setRegions)
+  watch(id, setRegions)
   
   const getRegions = computed<any[]>(() => {
     return regions.value.sort((a: any, b: any) => String(a?.region).localeCompare(String(b?.region)))

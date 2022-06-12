@@ -21,9 +21,9 @@ const TestComponent = {
       {id: 'SG', country: 'Singapore', dial_code: '+65', region: 'SE-AS' },
     ])
     const id = ref('ID')
-    const region = ref('SE-AS')
+    const prop = ref('id')
     
-    const { getCountries } = useCountries(countries, id, region)
+    const { getCountries } = useCountries(countries, id, prop.value)
     
     return {
       getCountries
