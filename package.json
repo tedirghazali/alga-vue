@@ -18,7 +18,8 @@
     }
   },
   "scripts": {
-    "test": "jest",
+    "test": "vitest",
+    "coverage": "vitest run --coverage",
     "build": "vue-tsc && vite build"
   },
   "repository": {
@@ -42,17 +43,13 @@
   "homepage": "https://github.com/tedirghazali/alga-vue#readme",
   "dependencies": {
     "alga-js": "^0.0.8",
-    "vue": "^3.0.5"
+    "vue": "^3.2.37"
   },
   "devDependencies": {
-    "@types/jest": "^26.0.23",
-    "@vitejs/plugin-vue": "^1.2.1",
-    "@vue/compiler-sfc": "^3.0.5",
-    "@vue/test-utils": "^2.0.0-rc.6",
-    "jest": "^27.0.5",
-    "ts-jest": "^27.0.3",
-    "typescript": "^4.3.4",
-    "vite": "^2.1.5",
-    "vue-tsc": "^0.0.15"
+    "@vitejs/plugin-vue": "^3.0.3",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.9",
+    "vitest": "^0.22.1",
+    "vue-tsc": "^0.40.4"
   }
 }
